@@ -276,12 +276,12 @@
 
 	MAP.on('plotly_click', function(data){
 		var template = ``;
-		template += `<b>Name: </b>${data.points[0].data.name}<br />`;
-		template += `<b>Description:</b><br />${data.points[0].data.text}<br /><br />`;
+		template += `<b>Name:</b><br /><small>${data.points[0].data.name}</small><br />`;
+		template += `<b>Description:</b><br /><small>${data.points[0].data.text}</small><br /><br />`;
 
 		if(data.points[0].data.customdata) {
 			for (const [k, v] of Object.entries(data.points[0].data.customdata)) {
-				template += `<b>${k}:</b><br />${v}<br />`;
+				template += `<b>${k}:</b><br /><small>${v}</small><br />`;
 			};
 		}
 
@@ -292,12 +292,12 @@
 
 	MAP.on('plotly_legendclick', function(data){
 		var template = ``;
-		template += `<b>Name: </b>${data.data[data.expandedIndex].name}<br />`;
-		template += `<b>Description:</b><br />${data.data[data.expandedIndex].text}<br /><br />`;
+		template += `<b>Name:</b><br /><small>${data.data[data.expandedIndex].name}</small><br />`;
+		template += `<b>Description:</b><br /><small>${data.data[data.expandedIndex].text}</small><br /><br />`;
 
 		if(data.data[data.expandedIndex].customdata) {
 			for (const [k, v] of Object.entries(data.data[data.expandedIndex].customdata)) {
-				template += `<b>${k}:</b><br />${v}<br />`;
+				template += `<b>${k}:</b><br /><small>${v}</small><br />`;
 			};
 		}
 
