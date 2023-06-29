@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Map Test</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="date=no">
+<link rel="stylesheet" type="text/css" href="lcars-tng-legacy-2.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.plot.ly/plotly-2.24.1.min.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="wrap">
+	<div class="scroll-top">
+		<a id="scroll-top" href=""><span class="hop">screen</span> top</a>
+	</div>
+	<div class="left-frame-top">
+		<div class="panel-1"><a href="">SYSTEM MAP</a></div>
+		<div class="panel-2">02<span class="hop">-262000</span></div>
+	</div>
+	<div class="right-frame-top">
+		<div class="banner">
+			LCARS &#149; Online
+		</div>
+			<div class="data-cascade-button-group">
+				<div class="cascade-wrapper">
+					<div class="data-cascade">
+						<div class="row-1"><div class="dc1">101</div><div class="dc2">7109</div><div class="dc3">1966</div><div class="dc4">1222</div><div class="dc5">2020</div><div class="dc6">1444</div><div class="dc7">102</div><div class="dc8">1103</div><div class="dc9">1935</div><div class="dc10">1940</div><div class="dc11">708</div><div class="dc12">M113</div><div class="dc13">1956</div><div class="dc14">1209</div></div><div class="row-2"><div class="dc1">102</div><div class="dc2">8102</div><div class="dc3">1987</div><div class="dc4">044</div><div class="dc5">0051</div><div class="dc6">607</div><div class="dc7">1976</div><div class="dc8">1031</div><div class="dc9">1984</div><div class="dc10">1954</div><div class="dc11">1103</div><div class="dc12">415</div><div class="dc13">1045</div><div class="dc14">1864</div></div><div class="row-3"><div class="dc1">103</div><div class="dc2">714</div><div class="dc3">1993</div><div class="dc4">0222</div><div class="dc5">052</div><div class="dc6">1968</div><div class="dc7">2450</div><div class="dc8">746</div><div class="dc9">56</div><div class="dc10">47</div><div class="dc11">716</div><div class="dc12">8719</div><div class="dc13">417</div><div class="dc14">602</div></div><div class="row-4"><div class="dc1">104</div><div class="dc2">6104</div><div class="dc3">1995</div><div class="dc4">322</div><div class="dc5">90</div><div class="dc6">1931</div><div class="dc7">1701</div><div class="dc8">51</div><div class="dc9">29</div><div class="dc10">218</div><div class="dc11">908</div><div class="dc12">2114</div><div class="dc13">85</div><div class="dc14">3504</div></div><div class="row-5"><div class="dc1">105</div><div class="dc2">08</div><div class="dc3">2001</div><div class="dc4">713</div><div class="dc5">079</div><div class="dc6">1940</div><div class="dc7">LV</div><div class="dc8">426</div><div class="dc9">105</div><div class="dc10">10</div><div class="dc11">1206</div><div class="dc12">1979</div><div class="dc13">402</div><div class="dc14">795</div></div><div class="row-6"><div class="dc1">106</div><div class="dc2">31</div><div class="dc3">2017</div><div class="dc4">429</div><div class="dc5">65</div><div class="dc6">871</div><div class="dc7">1031</div><div class="dc8">541</div><div class="dc9">656</div><div class="dc10">764</div><div class="dc11">88</div><div class="dc12">001</div><div class="dc13">27</div><div class="dc14">05</div></div>
+					</div> 
+				</div> 
+				<div class="button-col">
+					<div class="button" id="top-left"><a href="">01</a></div>
+					<div class="button" id="bottom-left"><a href="">02</a></div>
+				</div>
+				<div class="button-col">
+					<div class="button" id="top-right"><a href="">03</a></div>
+					<div class="button" id="bottom-right"><a href="">04</a></div>
+				</div>
+			</div>
+			<div class="runner">
+				<div class="top-corner-bg">
+					<div class="top-corner"></div>
+				</div>
+				<div class="block-2"></div>
+				<div class="block-4">
+					<div class="block-4-floatbar-top"></div>
+				</div>
+			</div>
+		<div class="bar-panel">
+			<div class="bar-1"></div>
+			<div class="bar-2"></div>
+			<div class="bar-3"></div>
+			<div class="bar-4"><div class="bar-4-inside"></div></div>
+					
+		</div>
+	</div>
+</div>
+<div class="wrap" id="gap">
+	<div class="left-frame">
+		<div>
+			<div class="panel-3">03<span class="hop">-111968</span></div>
+			<div class="panel-4">04<span class="hop">-041969</span></div>
+			<div class="panel-5">05<span class="hop">-1701D</span></div>			
+			<div class="panel-6">06<span class="hop">-071984</span></div>
+			<div class="panel-7">07<span class="hop">-081940</span></div>
+			<div class="panel-8">08<span class="hop">-47148</span></div>
+			<div class="panel-9">09<span class="hop">-081966</span></div>
+		</div>
+		<div>
+			<div class="panel-10">10<span class="hop">-31</span></div>
+		</div>
+	</div>
+	<div class="right-frame">
+		<div class="bar-panel">
+			<div class="bar-6"></div>
+			<div class="bar-7"></div>
+			<div class="bar-8"></div>
+			<div class="bar-9"><div class="bar-9-inside"></div></div>
+		</div>
+		<div class="runner">
+			<div class="corner-bg">
+				<div class="corner"></div>
+			</div>
+			<div class="block-2"></div>
+			<div class="block-4b">
+				<div class="block-4-floatbar-bottom"></div>
+				<div class="block-4-thinbar"></div>
+			</div>
+		</div>
+		<div class="content">
+
+			<div id="galaxyMap" style="width:100%;height:400px;"></div>
+			
+			<footer>
+				<div class="footer-inside">
+					<div>
+						<div>
+							<h2>Stellar Data:</h2>
+							<p id="detail"></p>
+						</div>
+					</div>
+				</div>
+				<div class="footer-panel">
+					<span class="hop">22</span>47
+				</div>
+			</footer>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="lcars.js"></script>
+<script>
+	var MAP = document.getElementById('galaxyMap');
+	var DETAIL = document.getElementById('detail');
+
+	var DATA = [
+	{
+		"name": "Pinastri",
+		"text": "Pinastri is the main sequence star of the Pinastri Star System. It is classified as a G3V Yellow Star composed of ionized calcium and both neutral and ionized metals. It has a surface temperature of between 5,000 and 6,000 degrees K.",
+		"x":[0], "y": [0], "z": [0],
+		"marker": {
+			"size": 32.5,
+			"color": "#d6860d"
+		},
+		"type": "scatter3d",
+		"mode": "markers",
+		"hoverinfo": "name"
+	},
+	{
+		"name": "Pinastri I",
+		"text": "Atmospheric conditions are turbulent and saturated with poisonous chemicals and Thermionic radiation. Surface temperature can reach in excess of 500 degrees K.",
+		"x":[-2], "y": [2], "z": [0],
+		"marker": {
+			"size": 5,
+			"color": "#cccccc"
+		},
+		"customdata": {
+			"classification": "Class Y",
+			"distance from sun": "0.15 AU",
+			"diameter": "20000 km",
+			"gravity": "1.4",
+			"atmosphere": "very dense, hydrogen/methane and 8 trace gases",
+			"weather system": "toxic and voilent storms, heavy acid rains",
+			"temp": "500C to 900C",
+			"surface": "active volcanos, toxic and rocky landscapes.",
+			"lifeforms": "none",
+			"tech. level": "none",
+			"specials": "heavy concentrations of liquid deuterium"
+		},
+		"type": "scatter3d",
+		"mode": "markers",
+		"hoverinfo": "name"
+	},
+	{
+		"name": "Pinastri II",
+		"text": "The surface is partially molten and has a high temperature. The atmosphere contains few chemically active gases.",
+		"x":[-4], "y": [-3], "z": [0],
+		"marker": {
+			"size": 15,
+			"color": "#cccccc"
+		},
+		"customdata": {
+			"classification":" Class B",
+			"distance from sun":" 0.7 AU",
+			"diameter":" 60000 km",
+			"gravity":" 2.0",
+			"atmosphere":" Thin, hydrogen/carbon dioxide/methane/clhoride",
+			"weather system":" extremely volatile storms and lightning",
+			"temp.":" -100C to 150C",
+			"surface":" Heavy cratered landscape, molten surface.",
+			"lifeforms":" none",
+			"tech. level":" none",
+			"specials":" none"
+		},
+		"type": "scatter3d",
+		"mode": "markers",
+		"hoverinfo": "name"
+	},
+	{
+		"name": "Pinastri III",
+		"text": "The planet's surface temperature is high due to the greenhouse effect, and water exisits only as vapour. The planet has an extremely dense atmosphere",
+		"x":[5], "y": [6], "z": [0],
+		"marker": {
+			"size": 7.5,
+			"color": "#cccccc"
+		},
+		"customdata": {
+			"classification":" Class N",
+			"distance from sun":" 1.15 AU",
+			"diameter":" 30000 km",
+			"gravity":" 0.9",
+			"atmosphere":" thin, oxygen/nitrogen/carbon dioxide/methane and 12 trace gases",
+			"weather system":" cloud covers and dust storms. lighting storms on occasion.",
+			"temp":" -10C to 70C",
+			"surface":" 10% water, 90% landmass, steppes, barren plains, rocky steppes, lakes near the polar caps.",
+			"lifeforms":" single cell lifeforms near the equator",
+			"tech. level":" none",
+			"specials":" none"
+		},
+		"type": "scatter3d",
+		"mode": "markers",
+		"hoverinfo": "name"
+	},
+	{
+		"name": "Pinastri IV - Pinastri Prime",
+		"text": "Pinastri Prime has many characteristics of earth. The axial tilt of 21.8 to 23.6 degrees stabilized by the Moon 'Cazalet' creates several major ecosystems or biomes. Located on the planet, the biomes include deserts, grasslands, artic tundra, tropical savanna and tropical rainforest depending on the latitude and geographical distribution of the land. The biome of the Callisto Ground Facility is located in a chaparral on the west coast of a major continent. A Chaparral is between the 30 to 38 degree latitude. A subtropical high pressure zone dominates the 4 seasons causing a dry climate. A seasonal movement of polar fronts and a mid-latitude cyclone of storms cause precipitation to mainly fall in the winter months. The annual rain averages from 350 to 890 millimeters and most of the rain in a three to five month period. The climate contributes to a number of adaptations of the vegetation to withstand drought and fire. This zone tends to have small trees and shrubs with hard evergreen leaves. With the high cost of replacement during the dry season the leaves do not drop. The dry climate slows the rate of leaf decomposition, not replenishing the soil. This leads to a lack of nutrients in the soil so it hinders the formation of new leaves during the wet season. The evolution of a chaparral produced a leaf to resist dry climates. The tectonics of Pinastri Prime produced 12 major plates floating on a superheated material that is in a semi-fluidic, plastic-like state. This produces stiff and unyielding land masses that create three types of plate boundaries called convergent, divergent and transform. Callisto Ground Facility is located near a transform boundary. This kind of boundary creates a slipping motion horizontally causing stress build up resulting in earthquakes and volcanos.",
+		"x":[8], "y": [-6], "z": [0],
+		"marker": {
+			"size": 8.75,
+			"color": "#33ff33"
+		},
+		"customdata": {
+			"Classification":" Class M",
+			"Distance from sun":" 1.5 AU",
+			"Diameter":" 35000 km",
+			"Gravity":" 1.1",
+			"Mean Circumference":" 109955.74 Km",
+			"Volume":" 22.45 X10^12 KM^3",
+			"Surface Area":" 3.85 X10^9 KM^2",
+			"Land surface area":" 1.51 x 10^9 Km ^2 (39.8%)",
+			"Water Surface Area":" 2.32 x 10^9 KM ^2 (60.2%)",
+			"Escape Velocity ":" 13.05 Km/sec",
+			"Mass":" 3.2323X10^24 Kg",
+			"Mean Density ":" .144 g/cm",
+			"Atmosphere":" dense, oxygen/nitrogen and a few trace gases",
+			"Weather system":" normal meteorlogy system. cloud system, rains, snow near the polar caps, lightning and storms.",
+			"Temperature":" -25C to 50C",
+			"Surface":" 60% water, 40% landmass. flora and fauna system, mountain ranges, rivers and lakes, prairies and grass fields.",
+			"Lifeforms":" abundant and various lifeforms and species. no sentient lifeforms.",
+			"Tech. level":" traces of an ancient culture long gone.",
+			"Specials":" Primary Delta Quadrant colony of UFS."
+		},
+		"type": "scatter3d",
+		"mode": "markers",
+		"hoverinfo": "name"
+	}
+
+];
+
+	var LAYOUT = {
+		scene:{
+			xaxis: {
+				visible: false,
+				//range: [-20, 20],
+			},
+			yaxis: {
+				visible: false,
+				//range: [-20, 20],
+			},
+			zaxis: {
+				visible: false,
+				//range: [-20, 20],
+			},
+			bgcolor: "#000000"
+		},
+		legend: {
+			x: 1,
+			xanchor: 'right',
+			y: 1,
+			bgcolor: "#000000",
+			font: {
+				color: "#aaa"
+			}
+		},
+		margin: {
+			l: 0,
+			r: 0,
+			b: 0,
+			t: 0
+		}
+	};
+
+	Plotly.newPlot( MAP, DATA, LAYOUT, {displayModeBar: false});
+
+	MAP.on('plotly_click', function(data){
+		var template = ``;
+		template += `<b>Name: </b>${data.points[0].data.name}<br />`;
+		template += `<b>Description:</b><br />${data.points[0].data.text}<br /><br />`;
+
+		if(data.points[0].data.customdata) {
+			for (const [k, v] of Object.entries(data.points[0].data.customdata)) {
+				template += `<b>${k}:</b><br />${v}<br />`;
+			};
+		}
+
+		DETAIL.innerHTML = template;
+
+		console.log("DATA", data);
+	});
+
+	MAP.on('plotly_legendclick', function(data){
+		var template = ``;
+		template += `<b>Name: </b>${data.data[data.expandedIndex].name}<br />`;
+		template += `<b>Description:</b><br />${data.data[data.expandedIndex].text}<br /><br />`;
+
+		if(data.data[data.expandedIndex].customdata) {
+			for (const [k, v] of Object.entries(data.data[data.expandedIndex].customdata)) {
+				template += `<b>${k}:</b><br />${v}<br />`;
+			};
+		}
+
+		DETAIL.innerHTML = template;
+
+		console.log("DATA", data);
+		return false;
+	  });
+
+</script>
+</body>
+</html>
